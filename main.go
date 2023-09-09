@@ -7,5 +7,5 @@ import (
 
 // function principal de go
 func main()  {
-	variables.MuestroEntero()
+	variables.RestoVariables()
 }
