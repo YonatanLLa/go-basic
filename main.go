@@ -41,8 +41,27 @@ func main() {
 	// fmt.Println(dato)
 
 	// ejerccio2:
-	num := ejercicios.NumerosPares(12)
-	fmt.Println(num)
+	// num := ejercicios.NumerosPares(12)
+	// fmt.Println(num)
+
+	// ejercicio3: 
+	// number := ejercicios.Factorial(5)
+	// fmt.Println(number)
+
+	// Ejercicio4:
+	// palabr := ejercicios.ContadorDePalabras("hola como estas")
+	// fmt.Println(palabr)
+	
+	// Ejercicio5:
+	number := 7
+
+	dato := ejercicios.Primo(number)
+
+	if dato {
+		fmt.Printf("%d es primo. \n", number)
+	}else {
+		fmt.Printf("%d no es primo. \n", number)
+	}
 
 	
 }
