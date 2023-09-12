@@ -35,9 +35,14 @@ func main() {
 	// 	fmt.Printf("%s \n ", os)
 	// }
 
-	result, dato := ejercicios.Ejerccio("fff")
-	fmt.Println(result, dato)
+	// result, dato := ejercicios.Ejerccio("fff")
+	// fmt.Println(result, dato)
+
 	// fmt.Println(dato)
 
+	// ejerccio2:
+	num := ejercicios.NumerosPares(12)
+	fmt.Println(num)
 
+	
 }
