@@ -2,16 +2,18 @@ package variables
 
 import (
 	"fmt"
+	"strconv"
 	"time"
 )
+
 // todo los archivos pesados lo importamos de manera implicita
-var Nombe string 
+var Nombe string
 var Estado bool
 var Sueldo1 float32
 var Sueldo2 float64
 var Fecha time.Time
 
-func RestoVariables()  {
+func RestoVariables() {
 	Nombe = "Pedro"
 	Estado = true
 	Sueldo1 = 155.77
@@ -23,8 +25,9 @@ func RestoVariables()  {
 	fmt.Println(Fecha)
 }
 
-func ConviertoText(numero int)(bool, string)  {
-	// vat texto string
-	texto = number
+func ConviertoText(numero int) (bool, string) {
+	// var texto string
+	texto := strconv.Itoa(numero)
 
+	return true, texto
 }
