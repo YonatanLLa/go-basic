@@ -4,7 +4,7 @@ package main
 import (
 	// "fmt"
 	// "go/src/variables"
-	"go/src/ejercicios"
+	"go/src/juegos"
 	// "reflect"
 	// "runtime"
 )
@@ -44,7 +44,7 @@ func main() {
 	// teclado.IngresoNumeros()
 	// ejercicios.TableNum()
 	// ejercicios.TableMult()
-	ejercicios.TableFinal()
+	// ejercicios.TableFinal()
 
 	// ejerccio2:
 	// num := ejercicios.NumerosPares(12)
@@ -74,7 +74,8 @@ func main() {
 	
 	// ejercico2:
 
-	
+	// JUEGOS:
+	juegos.Juegos()
 
 	
 }
