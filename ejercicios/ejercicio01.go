@@ -58,7 +58,7 @@ func Primo(number int) bool {
 	if number <= 1 {
 		return false
 	}
-	
+
 	for i := 2; i*i <= number; i++ {
 		if number%i == 0 {
 			return false
@@ -66,3 +66,5 @@ func Primo(number int) bool {
 	}
 	return true
 }
+
+// Inversión de cadena: Escribe una función que invierta una cadena de texto. Por ejemplo, si la entrada es "Hola", la salida debería ser "aloH".

@@ -2,7 +2,7 @@ package main
 
 // admite solo un paque
 import (
-	"fmt"
+	// "fmt"
 	// "go/src/variables"
 	"go/src/ejercicios"
 	// "reflect"
@@ -40,6 +40,12 @@ func main() {
 
 	// fmt.Println(dato)
 
+	// TECLADO
+	// teclado.IngresoNumeros()
+	// ejercicios.TableNum()
+	// ejercicios.TableMult()
+	ejercicios.TableFinal()
+
 	// ejerccio2:
 	// num := ejercicios.NumerosPares(12)
 	// fmt.Println(num)
@@ -53,15 +59,22 @@ func main() {
 	// fmt.Println(palabr)
 	
 	// Ejercicio5:
-	number := 7
+	// number := 7
 
-	dato := ejercicios.Primo(number)
+	// dato := ejercicios.Primo(number)
 
-	if dato {
-		fmt.Printf("%d es primo. \n", number)
-	}else {
-		fmt.Printf("%d no es primo. \n", number)
-	}
+	// if dato {
+	// 	fmt.Printf("%d es primo. \n", number)
+	// }else {
+	// 	fmt.Printf("%d no es primo. \n", number)
+	// }
+
+	// ITERACIONES
+	// iteraciones.Iterar()
+	
+	// ejercico2:
+
+	
 
 	
 }
