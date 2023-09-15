@@ -28,11 +28,13 @@ func TableNum() {
 
 }
 
-func TableMult() {
+func TableMult() string {
 	scanner := bufio.NewScanner(os.Stdin)
 
 	fmt.Println("Tabla de multiplicar")
 	fmt.Print("Ingrese un numero: ")
+
+	var texto string
 
 	for {
 		if scanner.Scan() {
@@ -46,9 +48,11 @@ func TableMult() {
 
 		fmt.Println("tabla de multiplicar de", numero1, ":")
 		for i := 0; i < 10; i++ {
-			fmt.Printf("%d * %d = %d\n", numero1, i, numero1*i)
+			texto += fmt.Sprintf("%d * %d = %d\n", numero1, i, numero1*i)
+
 		}
-		break
+
+		return texto
 	}
 
 }
@@ -84,7 +88,7 @@ func TableFinal() {
 
 				fmt.Printf("Tabla de multiplicar de %d en el ranfo %d-%d:\n", numero1, start, end)
 				for i := start; i < end; i++ {
-					fmt.Printf("%d * %d = %d\n", numero1,i,numero1*i)
+					fmt.Printf("%d * %d = %d\n", numero1, i, numero1*i)
 				}
 				break
 			}
@@ -92,7 +96,7 @@ func TableFinal() {
 	}
 }
 
-func parseRangeInput (input string) (int, int, error){
+func parseRangeInput(input string) (int, int, error) {
 	parts := strings.Split(input, "-")
 
 	if len(parts) != 2 {

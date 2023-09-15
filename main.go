@@ -4,7 +4,8 @@ package main
 import (
 	// "fmt"
 	// "go/src/variables"
-	"go/src/juegos"
+	// "fmt"
+	"go/src/files"
 	// "reflect"
 	// "runtime"
 )
@@ -17,8 +18,6 @@ func main() {
 	// fmt.Println(estado)
 	// fmt.Println(texto)
 	// fmt.Println(tipe)
-
-	
 
 	// if os := runtime.GOOS; os == "Linux." || os == "OS X." {
 	// 	fmt.Println("Esto no es windows")
@@ -39,25 +38,25 @@ func main() {
 	// fmt.Println(result, dato)
 
 	// fmt.Println(dato)
-
+	// TableMult
 	// TECLADO
 	// teclado.IngresoNumeros()
 	// ejercicios.TableNum()
-	// ejercicios.TableMult()
+	// fmt.Println(ejercicios.TableMult())
 	// ejercicios.TableFinal()
 
 	// ejerccio2:
 	// num := ejercicios.NumerosPares(12)
 	// fmt.Println(num)
 
-	// ejercicio3: 
+	// ejercicio3:
 	// number := ejercicios.Factorial(5)
 	// fmt.Println(number)
 
 	// Ejercicio4:
 	// palabr := ejercicios.ContadorDePalabras("hola como estas")
 	// fmt.Println(palabr)
-	
+
 	// Ejercicio5:
 	// number := 7
 
@@ -71,11 +70,14 @@ func main() {
 
 	// ITERACIONES
 	// iteraciones.Iterar()
-	
+
 	// ejercico2:
 
 	// JUEGOS:
-	juegos.Juegos()
+	// juegos.Juegos()
 
-	
+	// files.GrabaTabla()
+	// files.SumaTabla()
+	// files.LeoArchivo()
+	files.LeoArchivo2()
 }
