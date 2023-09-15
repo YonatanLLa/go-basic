@@ -6,8 +6,17 @@ import (
 
 func Calculos()  {
 
-	suma := func (num1 int, num2 int) int  {
-		return num1 + num2
+	var num3 int = 32
+	var num4 int = 243
+
+	calculo := func (num1 int, num2 int) int  {
+		return num1 + num2 + num3 + num4
 	}
-	fmt.Println(suma(12,13))
+
+	fmt.Println(calculo(10,25))
+
+	calculo = func(num1 int, num2 int) int {
+		return num1 + num2 * num3
+	}
+	fmt.Println(calculo(2,3))
 }

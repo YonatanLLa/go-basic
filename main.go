@@ -82,6 +82,6 @@ func main() {
 	// files.LeoArchivo2()
 
 	// FUNCIONES
-
-	funcs.Calculos()
+	// funcs.Calculos()
+	funcs.LlamarClousure()
 }
