@@ -5,7 +5,7 @@ import (
 	// "fmt"
 	// "go/src/variables"
 	// "fmt"
-	"go/src/files"
+	"go/src/funcs"
 	// "reflect"
 	// "runtime"
 )
@@ -79,5 +79,9 @@ func main() {
 	// files.GrabaTabla()
 	// files.SumaTabla()
 	// files.LeoArchivo()
-	files.LeoArchivo2()
+	// files.LeoArchivo2()
+
+	// FUNCIONES
+
+	funcs.Calculos()
 }
