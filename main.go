@@ -9,7 +9,10 @@ import (
 	// "go/src/models"
 	// m "go/src/models"
 	// "go/src/defer_panic"
-	d "go/src/defer_panic"
+	// "fmt"
+	w "go/src/webserver"
+	// webservergo "go/src/webserver.go"
+	// webservergo "go/src/webserver.go"
 	// "reflect"
 	// "runtime"
 )
@@ -101,12 +104,27 @@ func main() {
 	// users.AltaUsuario()
 	// Pedro := new(m.Hombre)
 	// e.HumanoRespirando(Pedro)
-// 
+	//
 	// Maria := new(models.Mujer)
 	// e.HumanoRespirando(Maria)
 
 	// DEFER
 	// d.VemosDefer()
-	d.EjemploPanic()
+	// d.EjemploPanic()
 
+	// ASINCRONISMO
+	// canal1 := make(chan bool)
+	// go g.MiNombreLento("yonatan llanto", canal1)
+	// defer func ()  {
+	// 	<-canal1
+	// }()	
+
+	// fmt.Println("Estoy aqui")
+
+	// var x string
+	// fmt.Scanln(&x)
+
+	// WEBSERVER
+	w.MiWebServer()
 }
+
