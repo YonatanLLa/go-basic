@@ -5,7 +5,7 @@ import (
 	// "fmt"
 	// "go/src/variables"
 	// "fmt"
-	"go/src/arreglos_slices"
+	"go/src/mapas"
 	// "reflect"
 	// "runtime"
 )
@@ -88,5 +88,9 @@ func main() {
 
 	// ARREGLOS
 	// arreglos_slices.MuestroArreglos()
-		arreglos_slices.Capacidad()
+	// arreglos_slices.Capacidad()
+
+	// MAPAS
+	mapas.MostrarMapas()
+
 }
