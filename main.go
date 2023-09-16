@@ -5,7 +5,7 @@ import (
 	// "fmt"
 	// "go/src/variables"
 	// "fmt"
-	"go/src/mapas"
+	"go/src/users"
 	// "reflect"
 	// "runtime"
 )
@@ -91,6 +91,9 @@ func main() {
 	// arreglos_slices.Capacidad()
 
 	// MAPAS
-	mapas.MostrarMapas()
+	// mapas.MostrarMapas()
+
+	// POO
+	users.AltaUsuario()
 
 }
