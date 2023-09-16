@@ -5,7 +5,11 @@ import (
 	// "fmt"
 	// "go/src/variables"
 	// "fmt"
-	"go/src/users"
+	// e "go/src/ejer_interfaces"
+	// "go/src/models"
+	// m "go/src/models"
+	// "go/src/defer_panic"
+	d "go/src/defer_panic"
 	// "reflect"
 	// "runtime"
 )
@@ -94,6 +98,15 @@ func main() {
 	// mapas.MostrarMapas()
 
 	// POO
-	users.AltaUsuario()
+	// users.AltaUsuario()
+	// Pedro := new(m.Hombre)
+	// e.HumanoRespirando(Pedro)
+// 
+	// Maria := new(models.Mujer)
+	// e.HumanoRespirando(Maria)
+
+	// DEFER
+	// d.VemosDefer()
+	d.EjemploPanic()
 
 }
