@@ -5,7 +5,7 @@ import (
 	// "fmt"
 	// "go/src/variables"
 	// "fmt"
-	"go/src/funcs"
+	"go/src/arreglos_slices"
 	// "reflect"
 	// "runtime"
 )
@@ -83,5 +83,10 @@ func main() {
 
 	// FUNCIONES
 	// funcs.Calculos()
-	funcs.LlamarClousure()
+	// funcs.LlamarClousure()
+	// funcs.Exponencia(2)
+
+	// ARREGLOS
+	// arreglos_slices.MuestroArreglos()
+		arreglos_slices.Capacidad()
 }
